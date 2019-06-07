@@ -41,7 +41,7 @@
 
 .header-color a {
   font-family: "Patrick Hand Regular";
-  font-size: 23px;
+  font-size: 19px;
 }
 
 .header-color a:hover{
@@ -57,7 +57,7 @@
 /*Landing page*/
 
 .landing-grid h1 {
-  font-size: 250px;
+  font-size: 240px;
   font-family: "Vayentha Script";
   color: white;
   text-align: center;
@@ -76,7 +76,7 @@
 }
 
 .banner-text h2 {
-  font-size: 27px;
+  font-size: 23px;
   font-family: "Patrick Hand Regular";
   color: white;
   text-align: center;
@@ -114,7 +114,7 @@
 
 .links-to-pages i {
   color: white;
-  font-size: 3.8em;
+  font-size: 3.4em;
   padding-top: 10px;
   margin: auto;
   text-align: center;
@@ -122,7 +122,7 @@
 
 .links-to-pages p {
   color: white;
-  font-size: 26px;
+  font-size: 22px;
   text-decoration-color: #30302D;
   font-family: "Patrick Hand Regular";
   margin-bottom: -10px;
@@ -137,7 +137,7 @@
   margin: 0 auto 5px auto;
   padding: 20px 0;
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Patrick Hand Regular";
   font-weight: bold;
   border-left-width: 2px;
@@ -146,7 +146,7 @@
 
 .drawer a i.fa {
   display: block;
-  font-size: 35px;
+  font-size: 31px;
   margin-bottom: 5px;
 }
 
@@ -164,7 +164,7 @@
 
 .category-tabs h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 26px;
+  font-size: 22px;
   margin: auto;
   color: #EDECEC;
 }
@@ -176,7 +176,7 @@
 
 .projects-grid h2 {
   font-family: "Patrick Hand Regular";
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .projects-grid p {
@@ -194,7 +194,6 @@
 /* Contact page */
 .contact-body {
   margin: auto;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -215,12 +214,12 @@
 
 .contact-grid h2 {
   font-family: "Vayentha Sans";
-  font-size: 70px;
+  font-size: 65px;
 }
 
 .contact-grid p {
   font-family: "Patrick Hand Regular";
-  font-size: 23px;
+  font-size: 19px;
 }
 
 .contact-grid hr {
@@ -247,12 +246,12 @@
 
 .resume-left-col h2 {
   font-family: "Vayentha Sans";
-  font-size: 75px;
+  font-size: 70px;
 }
 
 .resume-left-col h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 23px;
+  font-size: 19px;
   text-align: justify;
   margin-left: 17px;
   margin-right: 17px;
@@ -260,7 +259,7 @@
 
 .resume-left-col h5 {
   font-family: "Patrick Hand Regular";
-  font-size: 21px;
+  font-size: 17px;
   text-align: center;
   margin-left: 17px;
   margin-right: 17px;
@@ -277,23 +276,23 @@
   padding: 1.5em;
   padding-right: 1em;
   font-family: "Patrick Hand Regular";
-  font-size: 23px;
+  font-size: 19px;
   border-radius: 10px;
 }
 
 .resume-right-col h2 {
   font-family: "Vayentha Sans";
-  font-size: 70px;
+  font-size: 65px;
 }
 
 .resume-right-col h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 29px;
+  font-size: 25px;
 }
 
 .resume-right-col h6 {
   font-family: "Patrick Hand Regular";
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 

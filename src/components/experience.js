@@ -13,12 +13,12 @@ class Experience extends Component {
   	return(
       <Grid className="experience-details">
         <Cell col= {2}>
-          <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "26px"}}>{this.props.startYear} - {this.props.endYear}</h4>
+          <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "22px"}}>{this.props.startYear} - {this.props.endYear}</h4>
         </Cell>
         <Cell col= {8}>
-          <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "30px"}}>{this.props.jobName} {starsArray}</h4>    
-          <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "24px"}}><i>{this.props.jobCompany}</i></h4>
-          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "24px"}}>{this.props.jobDescription}</h5>
+          <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "26px"}}>{this.props.jobName} {starsArray}</h4>    
+          <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}><i>{this.props.jobCompany}</i></h4>
+          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}>{this.props.jobDescription}</h5>
         </Cell>
       </Grid>
     )

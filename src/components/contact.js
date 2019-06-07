@@ -13,16 +13,16 @@ class Contact extends Component{
 						<div className="contact-list">
 							<List>
 							  <ListItem>
-							    <ListItemContent style={{margin: 'auto', color: 'white', fontSize: '25px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-envelope" aria-hidden="true"/> kerryneer98@gmail.com</ListItemContent>
+							    <ListItemContent style={{margin: 'auto', color: 'white', fontSize: '21px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-envelope" aria-hidden="true"/> kerryneer98@gmail.com</ListItemContent>
 							  </ListItem>
 							  <ListItem>
-							    <ListItemContent style={{color: 'white', fontSize: '25px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-linkedin" aria-hidden="true"/> <a href="http://linkedin.com/in/kerryn98" rel="noopener noreferrer" target="_blank">linkedin.com/in/kerryn98</a></ListItemContent>
+							    <ListItemContent style={{color: 'white', fontSize: '21px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-linkedin" aria-hidden="true"/> <a href="http://linkedin.com/in/kerryn98" rel="noopener noreferrer" target="_blank">linkedin.com/in/kerryn98</a></ListItemContent>
 							  </ListItem>
 							  <ListItem>
-							    <ListItemContent style={{color: 'white', fontSize: '25px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-github" aria-hidden="true"/> <a href="http://github.com/KerrynEer" rel="noopener noreferrer" target="_blank">github.com/KerrynEer</a></ListItemContent>
+							    <ListItemContent style={{color: 'white', fontSize: '21px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-github" aria-hidden="true"/> <a href="http://github.com/KerrynEer" rel="noopener noreferrer" target="_blank">github.com/KerrynEer</a></ListItemContent>
 							  </ListItem>
 							  <ListItem>
-							    <ListItemContent style={{color: 'white', fontSize: '25px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-map-pin" aria-hidden="true"/> Singapore</ListItemContent>
+							    <ListItemContent style={{color: 'white', fontSize: '21px', fontFamily: 'Patrick Hand Regular'}}> <i className="fa fa-map-pin" aria-hidden="true"/> Singapore</ListItemContent>
 							  </ListItem>
 							</List>
 						</div>
