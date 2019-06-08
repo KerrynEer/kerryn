@@ -133,7 +133,7 @@ class Projects extends Component{
 					<Tab><h4>All</h4></Tab>
 					<Tab><h4>Web</h4></Tab>
 					<Tab><h4>Game</h4></Tab>
-					<Tab><h4>Software Engineering</h4></Tab>
+					<Tab><h4>Software Engin</h4></Tab>
 				</Tabs>
 
 				<Grid>
