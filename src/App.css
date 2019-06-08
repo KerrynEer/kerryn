@@ -62,7 +62,7 @@
   line-height: 1.0;
   color: white;
   text-align: center;
-  margin-top: -40px;
+  margin-top: -10px;
   margin-bottom: -10px;
 }
 
@@ -81,8 +81,6 @@
   font-family: "Patrick Hand Regular";
   color: white;
   text-align: center;
-/*  padding-left: 6em;
-  padding-right: 6em;*/
 }
 
 .banner-text hr {
@@ -165,8 +163,8 @@
 
 .category-tabs h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 21px;
-  margin: auto;
+  font-size: 19px;
+  margin: 1px;
   color: #EDECEC;
 }
 
@@ -177,7 +175,7 @@
 
 .projects-grid h2 {
   font-family: "Patrick Hand Regular";
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .projects-grid p {
@@ -204,7 +202,7 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 60%;
+  width: 65%;
   height: 550px;
   background: #30302D;
   opacity: .8;
@@ -220,7 +218,7 @@
 
 .contact-grid p {
   font-family: "Patrick Hand Regular";
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .contact-grid hr {
