@@ -8,7 +8,7 @@ class App extends Component {
     return (
      <div className="demo-big-content">
       <Layout>
-          <Header transparent className="header-color" title={<span style={{fontFamily: 'Patrick Hand Regular', fontSize: "23px"}}>Kerryn's website</span>} scroll >
+          <Header transparent className="header-color" title={<span style={{fontFamily: 'Patrick Hand Regular', fontSize: "18px"}}>Kerryn's website</span>} scroll >
               <Navigation>
                   <a href="/">About Me</a>
                   <a href="/resume">Resume</a>

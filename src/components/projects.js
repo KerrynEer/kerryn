@@ -42,7 +42,7 @@ class Projects extends Component{
 	/* savemyCAP web project */
 	showSavemycapProject() {
 		return (
-			<Card shadow= {5} style= {{minWidth: '600', margin:'auto'}}>
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginBottom:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/savemycap_logo.png) center / cover'}} >SaveMyCAP</CardTitle>
 				<CardText>
 					<p>
@@ -63,7 +63,7 @@ class Projects extends Component{
 	/* Personal portfolio website */
 	showPersonalPortfolioWebsite() {
 		return (
-			<Card shadow= {5} style= {{minWidth: '600', margin:'auto'}}>
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginBottom:'10px'}}>
 				<CardTitle expand style={{color: 'white', height: '280px', background: 
 				'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}} >
 				Personal Portfolio Website</CardTitle>
@@ -85,7 +85,7 @@ class Projects extends Component{
 	/* Slap your enemy game */
 	showSlapYourEnermyGameProject() {
 		return (
-			<Card shadow= {5} style= {{minWidth: '600', margin:'auto'}}>
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginBottom:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/slapyourenermy_logo.png) center / cover'}} >Slap Your Enermy</CardTitle>
 				<CardText>
 					<p>
@@ -106,7 +106,7 @@ class Projects extends Component{
 	/* Know-It-All Software Engineering Project */
 	showKnowItAllProject() {
 		return (
-			<Card shadow= {5} style= {{minWidth: '600', margin:'auto'}}>
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginBottom:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/knowitall_logo.png) center / contain no-repeat '}} ></CardTitle>
 				<CardText>
 					<p>

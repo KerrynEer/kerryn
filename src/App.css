@@ -41,7 +41,7 @@
 
 .header-color a {
   font-family: "Patrick Hand Regular";
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .header-color a:hover{
@@ -59,10 +59,11 @@
 .landing-grid h1 {
   font-size: 240px;
   font-family: "Vayentha Script";
+  line-height: 1.0;
   color: white;
   text-align: center;
   margin-top: -60px;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
 
 .banner-text {
@@ -80,8 +81,8 @@
   font-family: "Patrick Hand Regular";
   color: white;
   text-align: center;
-  padding-left: 6em;
-  padding-right: 6em;
+/*  padding-left: 6em;
+  padding-right: 6em;*/
 }
 
 .banner-text hr {
@@ -164,7 +165,7 @@
 
 .category-tabs h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 22px;
+  font-size: 21px;
   margin: auto;
   color: #EDECEC;
 }
@@ -203,7 +204,7 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 50%;
+  width: 58%;
   height: 550px;
   background: #30302D;
   opacity: .8;
