@@ -57,13 +57,14 @@
 /*Landing page*/
 
 .landing-grid h1 {
-  font-size: 240px;
+  font-size: 230px;
   font-family: "Vayentha Script";
   line-height: 1.0;
   color: white;
   text-align: center;
   margin-top: -10px;
   margin-bottom: -10px;
+  white-space: nowrap;
 }
 
 .banner-text {
@@ -77,7 +78,7 @@
 }
 
 .banner-text h2 {
-  font-size: 23px;
+  font-size: 21px;
   font-family: "Patrick Hand Regular";
   color: white;
   text-align: center;
@@ -113,7 +114,7 @@
 
 .links-to-pages i {
   color: white;
-  font-size: 3.4em;
+  font-size: 3.1em;
   padding-top: 10px;
   margin: auto;
   text-align: center;
@@ -121,7 +122,7 @@
 
 .links-to-pages p {
   color: white;
-  font-size: 22px;
+  font-size: 21px;
   text-decoration-color: #30302D;
   font-family: "Patrick Hand Regular";
   margin-bottom: -10px;
@@ -163,8 +164,8 @@
 
 .category-tabs h4 {
   font-family: "Patrick Hand Regular";
-  font-size: 19px;
-  margin: 1px;
+  font-size: 18px;
+  margin: 0.5px;
   color: #EDECEC;
 }
 
@@ -202,12 +203,12 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 65%;
-  height: 550px;
+  width: 75%;
+  height: 500px;
   background: #30302D;
   opacity: .8;
   color: white;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   border-radius: 10px;
 }
 
