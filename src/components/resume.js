@@ -24,7 +24,7 @@ class Resume extends Component{
 							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  <br/>
-							  Grab a copy of the summarised resume <a href="resume070619.pdf" download>here</a>!
+							  Grab a copy of the summarised resume <a href="resume080619.pdf" download>here</a>!
 							 </h5>
 						</div>
 					</Cell>
@@ -114,7 +114,7 @@ class Resume extends Component{
 			                progress={95}
 			               />
 			               <Skills
-			                skill="Web Dev (HTML, CSS)"
+			                skill="Web Dev (HTML, CSS, Heroku)"
 			                progress={90}
 			               />
 			               <Skills

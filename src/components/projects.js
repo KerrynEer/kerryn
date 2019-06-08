@@ -71,7 +71,7 @@ class Projects extends Component{
 					<p>Yes this is the one you are looking at right now!</p>
 					<br></br>
 					<br></br>
-					<p>Built using React, NodeJS, HTML and CSS. </p>
+					<p>Built using React, NodeJS, HTML and CSS, hosted on Heroku.</p>
 				</CardText>
 				<CardActions border>
 					{/* TO ADD GITHUB LINK HERE*/}
