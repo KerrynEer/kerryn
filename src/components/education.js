@@ -35,17 +35,17 @@ class Education extends Component {
     return(
       <Grid className="education-details">
         <Cell col= {2}>
-          <h4 style= {{marginTop:'0px',fontFamily: "Patrick Hand Regular", fontSize: "22px"}}>{this.props.startYear} - {this.props.endYear}</h4>
+          <h4 style= {{marginTop:'0px',fontFamily: "Patrick Hand Regular", fontSize: "21px"}}>{this.props.startYear} - {this.props.endYear}</h4>
         </Cell>
         <Cell col= {8}>
-          <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "26px"}}>{this.props.schoolName}</h4>
-          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}><u>{this.props.schoolDegree}</u> {starsArray}</h5>
+          <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "25px"}}>{this.props.schoolName}</h4>
+          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{this.props.schoolDegree}</u> {starsArray}</h5>
           {degreeArray}
-          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}><u>{this.props.schoolAwards}</u> {starsArray}</h5>
+          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{this.props.schoolAwards}</u> {starsArray}</h5>
           {awardsArray}
-          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}><u>{this.props.schoolLeadership}</u></h5>
+          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{this.props.schoolLeadership}</u></h5>
           {leadershipArray}
-          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "20px"}}><u>{this.props.schoolCommService}</u></h5>
+          <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{this.props.schoolCommService}</u></h5>
           {commServiceArray}
 
         </Cell>

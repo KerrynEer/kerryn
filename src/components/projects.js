@@ -74,8 +74,7 @@ class Projects extends Component{
 					<p>Built using React, NodeJS, HTML and CSS, hosted on Heroku.</p>
 				</CardText>
 				<CardActions border>
-					{/* TO ADD GITHUB LINK HERE*/}
-					<Button colored>GitHub</Button>
+					<Button colored> <a href="http://github.com/KerrynEer/kerryn" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
 
 				</CardActions>
 			</Card>
