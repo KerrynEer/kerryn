@@ -57,12 +57,12 @@
 /*Landing page*/
 
 .landing-grid h1 {
-  font-size: 230px;
+  font-size: 240px;
   font-family: "Vayentha Script";
   line-height: 1.0;
   color: white;
   text-align: center;
-  margin-top: -10px;
+  margin-top: -20px;
   margin-bottom: -10px;
   white-space: nowrap;
 }
@@ -73,7 +73,7 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  padding: 2em;
+  padding: 1.7em;
   text-align: center;
 }
 
@@ -161,6 +161,11 @@
 
 
 /*projects*/
+
+.category-tabs {
+  line-height: 0.1;
+  justify-content: center;
+}
 
 .category-tabs h4 {
   font-family: "Patrick Hand Regular";
