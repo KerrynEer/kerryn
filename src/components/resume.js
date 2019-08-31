@@ -24,7 +24,7 @@ class Resume extends Component{
 							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  <br/>
-							  Grab a copy of the summarised resume <a href="resume230819.pdf" download>here</a>!
+							  Grab a copy of the summarised resume <a href="resume310819.pdf" download>here</a>!
 							 </h5>
 						</div>
 					</Cell>
