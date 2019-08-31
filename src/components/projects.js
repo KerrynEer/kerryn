@@ -46,7 +46,7 @@ class Projects extends Component{
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/savemycap_logo.png) center / cover'}} >SaveMyCAP</CardTitle>
 				<CardText>
 					<p>
-					An easy-to-use web application that aims to help students keep track of their academic results and facilitate target setting.
+					An easy-to-use web application that aims to help students keep track of their academic results and facilitate target setting. This is my very first self-directed software development project! 
 					</p>
 					<br></br>
 					<br></br>
@@ -68,7 +68,7 @@ class Projects extends Component{
 				'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}} >
 				Personal Portfolio Website</CardTitle>
 				<CardText>
-					<p>Yes this is the one you are looking at right now!</p>
+					<p>Yes this is the one you are looking at right now! Self-taught by following online tutorials and exploring on my own!</p>
 					<br></br>
 					<br></br>
 					<p>Built using React, NodeJS, HTML and CSS, hosted on Heroku.</p>
@@ -110,7 +110,8 @@ class Projects extends Component{
 				<CardText>
 					<p>
 					A flashcard management app designed to help medical students store, organise and share their learning material, integrated with a test session feature and scoring system to allow for 
-					a more efficient rote learning process. 
+					a more efficient rote learning process. I was in charge of the test session feature. We had to apply Software Engineering Principles and Patterns when implementing it and also write detailed documentation, 
+					which includes sequence diagrams and architecture diagrams in the developer guide, as well as user guide, non-functional requirements etc. Go over to my Project Portfolio to see my contributions!
 					</p>
 					<br></br>
 					<br></br>

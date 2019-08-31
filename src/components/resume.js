@@ -33,10 +33,11 @@ class Resume extends Component{
 						 <hr style={{borderTop: '3px dotted', width: '85%'}}/>
 						 <Experience
 						 	startYear= {'May'}
-						 	endYear = {'Sep 2019 Present'}
-						 	jobName = {'Advisor for NUS Independent Software Development Project'}
+						 	endYear = {'Aug 2019'}
+						 	jobName = {'Adviser for NUS Independent Software Development Project - Awarded the Best Adviser Award'}
+						 	important = {'TRUE'}
 						 	jobCompany = {'National University of Singapore'}
-						 	jobDescription = {'This program, also known as Orbital, gives first-year NUS students the opportunity to pick up software development skills on their own, using sources on the web. As an advisor, I assess and evaluate the progress of the teams I oversee and guide them through the project.'}
+						 	jobDescription = {'This program, also known as Orbital, gives first-year NUS students the opportunity to pick up software development skills on their own, using sources on the web. As an adviser, I provide materials, assess and evaluate the progress of the 5 teams I oversee and guide them through the project. I was lucky to be one of the two who won the Best Adviser Award among 50+ other advisers.'}
 						 />
 						 <hr style={{borderTop: '1px solid', width: '85%'}}/>
 						 <Experience
@@ -90,7 +91,7 @@ class Resume extends Component{
 						 	endYear = {2016}
 						 	schoolName = "Temasek Junior College"
 						 	schoolDegree = "Singapore-Cambridge GCE A-Levels"
-						 	schoolDescriptionDegree = { ['Rank Point: 87.5/90', 'H3 Biology at NUS, H2 Biology, H2 Chemistry, H2 Mathematics, H2 Economics, H1 General Paper, H1 Project Work']}
+						 	schoolDescriptionDegree = { ['Rank Point: 87.5/90', 'H3 Biology at NUS (eligible for top 5% of cohort) , H2 Biology, H2 Chemistry, H2 Mathematics, H2 Economics, H1 General Paper, H1 Project Work']}
 						 	important = {'TRUE'}
 						 	schoolAwards = "Awards"
 						 	schoolDescriptionAwards = { ['MOE Edusave Merit Bursary 2016', 'Lim Lai Cheng Trophy – TJC IP Overall Best Student 2015', 
@@ -119,7 +120,7 @@ class Resume extends Component{
 			               />
 			               <Skills
 			                skill="Web Dev (Meteor, React, MongoDB)"
-			                progress={80}
+			                progress={75}
 			               />
 			               <Skills
 			                skill="Git"
@@ -127,6 +128,10 @@ class Resume extends Component{
 			               />
 			               <Skills
 			                skill="Unix, vim"
+			                progress={80}
+			               />
+			               <Skills
+			                skill="Oracle Database SQL, SQLDeveloper"
 			                progress={80}
 			               />
 			               <Skills
