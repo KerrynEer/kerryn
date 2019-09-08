@@ -11,7 +11,7 @@ class LandingPage extends Component{
 					<h1>Kerryn</h1>
 
 					<div className="banner-text"> 
-						<h2>Hi! I am a Year 2 Computer Science Undergraduate at National University of Singapore and welcome to my personal website.</h2>
+						<h2>Hi! I am a penultimate Computer Science Undergraduate at National University of Singapore and welcome to my personal website.</h2>
 						<hr/>
 						<br></br>
 		
