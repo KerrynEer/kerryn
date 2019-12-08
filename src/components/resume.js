@@ -17,14 +17,14 @@ class Resume extends Component{
 							 <h4>My coding experience began not long ago in 2017 when I join NUS Computer Science. 
 							 I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
 							 
-							 <h4>Currently, looking for an internship in Winter 2019 (Dec 2019) and in Summer 2020 (May-July 2020).
-							 Particularly, interested anything related to ArtificiaI Intelligence/ Security/ Software Engineering. 
+							 <h4>Currently looking for an internship in Summer 2020 (May-July 2020).
+							 Particularly, interested anything related to ArtificiaI Intelligence/ Security/ Software Engineering/ Database!
 							 </h4>
 
 							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  <br/>
-							  Grab a copy of the summarised resume <a href="resume100919.pdf" download>here</a>!
+							  Grab a copy of the summarised resume <a href="resume081219.pdf" download>here</a>!
 							 </h5>
 						</div>
 					</Cell>
@@ -76,7 +76,7 @@ class Resume extends Component{
 						 	schoolDescriptionDegree = { ['CAP: 4.76/5.0', 'Programming Methodology I & II , Discrete Structures, Linear Algebra, Calculus for Computing, Statistics and Probability, Data Structures and Algorithms, Computer Organization, Operating Systems, Computer Networks, Physics Fundamentals, Machine Learning, Software Engineering, Information security, Cybersecurity, Effective Communication for Computing Professionals']}
 						 	important = {'TRUE'}
 						 	schoolAwards = "Awards"
-						 	schoolDescriptionAwards = { ['NUS Merit Scholarship 2017-2021'] }
+						 	schoolDescriptionAwards = { ['NUS Merit Scholarship 2017-2021', 'Best Adviser Award for NUS School of Computing Orbital Program 2019', '1st Prize for NUS School of Computing Term Project Showcase (15th STEPS) - CS3235 Computer Security'] }
 						 	schoolLeadership = "Activities"
 						 	schoolDescriptionLeadership = { ['Medic for NUS Computing Freshmen Orientation Week 2018', 'Member of Organising Committee for NUS Computing Freshmen Social Camp 2018', 'Helper at NUS Computing Day 2018'] }
 						 	schoolCommService = "Community Service"
@@ -123,19 +123,15 @@ class Resume extends Component{
 			                progress={75}
 			               />
 			               <Skills
-			                skill="Git"
-			                progress={85}
-			               />
-			               <Skills
-			                skill="Unix, vim"
+			                skill="Git, unix, vim"
 			                progress={80}
 			               />
 			               <Skills
-			                skill="Oracle Database SQL, SQLDeveloper"
+			                skill="Oracle Database SQL, SQLDeveloper, Python"
 			                progress={80}
 			               />
 			               <Skills
-			                skill="Javascript, Python"
+			                skill="JavaFX, JUnit, Vue.js, Javascript, Spring Boot, Wireshark"
 			                progress={60}
 			               />
 
