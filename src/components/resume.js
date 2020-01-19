@@ -17,20 +17,28 @@ class Resume extends Component{
 							 <h4>My coding experience began not long ago in 2017 when I join NUS Computer Science. 
 							 I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
 							 
-							 <h4>Currently looking for an internship in Summer 2020 (May-July 2020).
-							 Particularly, interested anything related to ArtificiaI Intelligence/ Security/ Software Engineering/ Database!
+							 <h4>Currently looking for a 3-month internship in Summer 2020 (May-July 2020).
+							 Particularly, interested anything related to Security/ Software Engineering/ Database!
 							 </h4>
 
 							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  <br/>
-							  Grab a copy of the summarised resume <a href="resume081219.pdf" download>here</a>!
+							  Grab a copy of the summarised resume <a href="KerrynResume190120.pdf" download>here</a>!
 							 </h5>
 						</div>
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						 <h2>Experience</h2>
 						 <hr style={{borderTop: '3px dotted', width: '85%'}}/>
+						 <Experience
+						 	startYear= {'Dec 2019'}
+						 	endYear = {'Jan 2020'}
+						 	jobName = {'Intern at Vouch SG Pte Ltd'}
+						 	important = {'TRUE'}
+						 	jobCompany = {'Vouch SG Pte Ltd'}
+						 	jobDescription = {'As a versatile team player, I took on various roles from product management to software engineering. I built a new chatbot from scratch for HR claims management, attended meetings with clients (Singapore Zoo and Singapore Tourism Board) and refined the existing chatbot main features and performed extensive testing according to their requirements. As a software engineer, I implemented a UI/UX feature using Node.js to enhance chatbot developers user experience.'}
+						 />
 						 <Experience
 						 	startYear= {'May'}
 						 	endYear = {'Aug 2019'}
@@ -73,14 +81,14 @@ class Resume extends Component{
 						 	endYear = {'2021 Present'}
 						 	schoolName = "National University of Singapore"
 						 	schoolDegree = "Bachelor of Computing with Hons (Computer Science)"
-						 	schoolDescriptionDegree = { ['CAP: 4.76/5.0', 'Programming Methodology I & II , Discrete Structures, Linear Algebra, Calculus for Computing, Statistics and Probability, Data Structures and Algorithms, Computer Organization, Operating Systems, Computer Networks, Physics Fundamentals, Machine Learning, Software Engineering, Information security, Cybersecurity, Effective Communication for Computing Professionals']}
+						 	schoolDescriptionDegree = { ['CAP: 4.78/5.0 (Expected First Class Honours)', 'Specialisations: Security (Certificate of Distinction), Software Engineering, Database, Artificial Intelligence','Programming Methodology I & II , Discrete Structures, Linear Algebra, Calculus for Computing, Statistics and Probability, Data Structures and Algorithms, Algorithms Design and Analysis, Computer Organization, Operating Systems, Computer Networks, Physics Fundamentals, Artificial Intelligence, Machine Learning, Software Engineering, Computer security, Information security, Cybersecurity, Effective Communication for Computing Professionals']}
 						 	important = {'TRUE'}
 						 	schoolAwards = "Awards"
 						 	schoolDescriptionAwards = { ['NUS Merit Scholarship 2017-2021', 'Best Adviser Award for NUS School of Computing Orbital Program 2019', '1st Prize for NUS School of Computing Term Project Showcase (15th STEPS) - CS3235 Computer Security'] }
 						 	schoolLeadership = "Activities"
 						 	schoolDescriptionLeadership = { ['Medic for NUS Computing Freshmen Orientation Week 2018', 'Member of Organising Committee for NUS Computing Freshmen Social Camp 2018', 'Helper at NUS Computing Day 2018'] }
 						 	schoolCommService = "Community Service"
-						 	schoolDescriptionCommService = { ['Ang Mo Kio Family Service Centre Project Spright Academy Organising Committee Manpower and Logistics IC', 'NUS Computing Club Community Service Cell Member 2017-2018', 
+						 	schoolDescriptionCommService = { ['Ang Mo Kio Family Service Centre Project Spright Academy Organising Committee Manpower and Logistics IC 2019', 'NUS Computing Club Community Service Cell Member 2017-2018', 
 						 	'NUS Rag & Flag Beneficiary Engagement Day @ Fernvale Gardens School (MINDS) 2017, 2018' ]} 
 						 />
 
