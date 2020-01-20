@@ -165,7 +165,6 @@
 /*projects*/
 
 .category-tabs {
-  line-height: 0.1;
   justify-content: center;
 }
 
@@ -173,6 +172,7 @@
   font-family: "Patrick Hand Regular";
   font-size: 18px;
   margin: 0.5px;
+  line-height: 23px;
   color: #EDECEC;
 }
 

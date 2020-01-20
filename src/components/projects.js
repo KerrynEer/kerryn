@@ -12,10 +12,10 @@ class Projects extends Component{
 			return (
 				<div className="projects-grid">
 					{this.showSavemycapProject()}
-					{this.showPersonalPortfolioWebsite()}
-					{this.showSlapYourEnermyGameProject()}
 					{this.showKnowItAllProject()}
 					{this.showSDRLeaksProject()}
+					{this.showPersonalPortfolioWebsite()}
+					{this.showSlapYourEnermyGameProject()}
 				</div>
 			)
 		} else if (this.state.activeTab === 1) {
@@ -56,7 +56,7 @@ class Projects extends Component{
 					An easy-to-use web application that aims to help students keep track of their academic results and facilitate target setting. This is my very first self-directed software development project! 
 					</p>
 					<br></br>
-					<p>Built with a friend, using Meteor, MongoDB, NodeJS, Heroku, HTML and CSS. </p>
+					<p>Built with a friend, using Meteor, MongoDB, Node.js, Heroku, HTML and CSS. </p>
 				</CardText>
 				<CardActions border>
 					<Button colored> <a href="http://github.com/KerrynEer/savemycap" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
@@ -76,7 +76,7 @@ class Projects extends Component{
 				<CardText>
 					<p>Yes this is the one you are looking at right now! Self-taught by following online tutorials and exploring on my own!</p>
 					<br></br>
-					<p>Built using React, NodeJS, HTML and CSS, hosted on Heroku.</p>
+					<p>Built using React, Node.js, HTML and CSS, hosted on Heroku.</p>
 				</CardText>
 				<CardActions border>
 					<Button colored> <a href="http://github.com/KerrynEer/kerryn" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
@@ -90,7 +90,7 @@ class Projects extends Component{
 	showSlapYourEnermyGameProject() {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
-				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/slapyourenermy_logo.png) center / cover'}} >Slap Your Enermy</CardTitle>
+				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/slapyourenermy_logo.png) center / cover'}} >Slap Your Enemy</CardTitle>
 				<CardText>
 					<p>
 					A highly addictive game to relieve one's stress by slapping as fast as you can within 10 seconds. 
@@ -134,7 +134,8 @@ class Projects extends Component{
 				<CardText>
 					<p>
 					A flashcard management app designed to help medical students store, organise and share their learning material, integrated with a test session feature and scoring system to allow for 
-					a more efficient rote learning process. I was in charge of the test session feature. We had to apply Software Engineering Principles and Patterns when implementing it and also write detailed documentation, 
+					a more efficient rote learning process. </p>
+					<p>I was in charge of the test session feature. I applied Software Engineering Principles and Patterns throughout implementation and wrote detailed documentation, 
 					which includes sequence diagrams and architecture diagrams in the developer guide, as well as user guide, non-functional requirements etc. Go over to my Project Portfolio to see my contributions!
 					</p>
 					<br></br>

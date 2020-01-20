@@ -39,6 +39,7 @@ class Resume extends Component{
 						 	jobCompany = {'Vouch SG Pte Ltd'}
 						 	jobDescription = {'As a versatile team player, I took on various roles from product management to software engineering. I built a new chatbot from scratch for HR claims management, attended meetings with clients (Singapore Zoo and Singapore Tourism Board) and refined the existing chatbot main features and performed extensive testing according to their requirements. As a software engineer, I implemented a UI/UX feature using Node.js to enhance chatbot developers user experience.'}
 						 />
+						 <hr style={{borderTop: '1px solid', width: '85%'}}/>
 						 <Experience
 						 	startYear= {'May'}
 						 	endYear = {'Aug 2019'}
@@ -127,7 +128,7 @@ class Resume extends Component{
 			                progress={90}
 			               />
 			               <Skills
-			                skill="Web Dev (Meteor, React, MongoDB)"
+			                skill="Web Dev (Node.js, Meteor, React, MongoDB)"
 			                progress={75}
 			               />
 			               <Skills
