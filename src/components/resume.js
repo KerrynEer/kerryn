@@ -11,7 +11,7 @@ class Resume extends Component{
           <div className="col-lg-4 resume-left-col">
 						<div className="sticky-top" style = {{textAlign:"center"}}>
 							 <h3>Kerryn</h3>
-							 <img src="images/dp.jpg" alt="pic" style={{height: '220px'}} />
+							 <img src="images/dp.jpg" alt="pic" style={{height: '210px'}} />
 							 <br/>
                <br/>
                <h4>My coding experience began in 2017 when I join NUS Computer Science. 
@@ -22,10 +22,10 @@ class Resume extends Component{
 							 <h5>
                 Walk down my milestones with me!
                 <div className="resume-shortcuts">
-                <a className="btn btn-outline-secondary resume-button" href="#resume-experience">Experience</a>
-                <a className="btn btn-outline-secondary resume-button" href="#resume-education">Education</a>
-                <a className="btn btn-outline-secondary resume-button" href="#resume-skills">Skills</a>
-              </div>
+                  <a className="btn btn-outline-secondary resume-button" href="#resume-experience">Experience</a>
+                  <a className="btn btn-outline-secondary resume-button" href="#resume-education">Education</a>
+                  <a className="btn btn-outline-secondary resume-button" href="#resume-skills">Skills</a>
+                </div>
                  <br/>
                  Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
