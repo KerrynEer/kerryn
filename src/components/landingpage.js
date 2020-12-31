@@ -9,10 +9,12 @@ class LandingPage extends Component{
 				<Grid className="landing-grid">
 					<Cell col={12}>
 					<h1>Kerryn</h1>
+          <br />
 
 					<div className="banner-text"> 
 						<h2>Hi! I am a final year Computer Science Undergraduate at National University of Singapore and welcome to my personal website.</h2>
-						<hr/>
+						<br />
+            <hr/>
 						<br></br>
 		
 						<div className="links-to-pages">
@@ -30,8 +32,8 @@ class LandingPage extends Component{
 							<a href="/contact">
 								<i className="fa fa-phone" aria-hidden="true"></i>
 								<p>Contact</p>
-							</a>
-						</div>
+						  </a>
+            </div>
 					</div>
 					</Cell>
 
