@@ -17,25 +17,49 @@ class Resume extends Component{
 							 <h4>My coding experience began not long ago in 2017 when I join NUS Computer Science. 
 							 I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
 							 
-							 <h4>Currently looking for a 3-month internship in Summer 2020 (May-July 2020).
-							 Particularly, interested anything related to Security/ Software Engineering/ Database!
+							 <h4>Software Engineering speaks to me most and I am currently specialising in it along with other focus areas like Security and Database!
 							 </h4>
-
 							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  <br/>
-							  Grab a copy of the summarised resume <a href="KerrynResume190120.pdf" download>here</a>!
+							  Grab a copy of the summarised resume <a href="KerrynResume220820.pdf" download>here</a>!
 							 </h5>
 						</div>
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
-						 <h2>Experience</h2>
+						 <h2 id="resume-experience">Experience</h2>
 						 <hr style={{borderTop: '3px dotted', width: '85%'}}/>
+             <Experience
+						 	startYear= {'May 2020'}
+						 	endYear = {'Aug 2020'}
+						 	jobName = {'Software Product Sprint'}
+						 	important = {'TRUE'}
+						 	jobCompany = {'Google Singapore Pte Ltd'}
+						 	jobDescription = {'I was fortunate to be accepted into this invite-only Software Product Sprint program. I got the opportunity to develop industry-aligned SWE skills and receive code reviews from Googlers throughout. I collaborated in a team to design and implement an online multiplayer game using Socket.io, React and Node.js.'}
+						 />
+						 <hr style={{borderTop: '1px solid', width: '85%'}}/>
+             <Experience
+						 	startYear= {'May 2020'}
+						 	endYear = {'Jul 2020'}
+						 	jobName = {'Software Engineer Intern at Govtech'}
+						 	important = {'TRUE'}
+						 	jobCompany = {'Government Technology Agency'}
+						 	jobDescription = {'I developed and deployed features for the mobile dashboard on the Whole-of-Government Application Analytics (WOGAA) web application, providing real-time performance monitoring of > 1000 government sites. I also helped to migrate part of platform infrastructure over to Government Commercial Cloud Service platform using AWS S3, Lambda and Cloudfront.'}
+						 />
+						 <hr style={{borderTop: '1px solid', width: '85%'}}/>
+             <Experience
+						 	startYear= {'Feb 2020'}
+						 	endYear = {'Apr 2020'}
+						 	jobName = {'Product Management Intern at Shopee'}
+						 	important = {'TRUE'}
+						 	jobCompany = {'Shopee Pte Ltd'}
+						 	jobDescription = {'Intrigued by the different stages of Software Development Life Cycle, I joined Shopee Search Team to learn more about Product Management. My job scope consists of writing SQL queries doing complex manipulations on large datasets, for analysis of A/B test results to verify Search feature’s performance and plan its roadmap. I am proud to have increased the coverage of users’ keywords of the project by at least 53%.'}
+						 />
+						 <hr style={{borderTop: '1px solid', width: '85%'}}/>
 						 <Experience
 						 	startYear= {'Dec 2019'}
 						 	endYear = {'Jan 2020'}
 						 	jobName = {'Intern at Vouch SG Pte Ltd'}
-						 	important = {'TRUE'}
 						 	jobCompany = {'Vouch SG Pte Ltd'}
 						 	jobDescription = {'As a versatile team player, I took on various roles from product management to software engineering. I built a new chatbot from scratch for HR claims management, attended meetings with clients (Singapore Zoo and Singapore Tourism Board) and refined the existing chatbot main features and performed extensive testing according to their requirements. As a software engineer, I implemented a UI/UX feature using Node.js to enhance chatbot developers user experience.'}
 						 />
@@ -75,14 +99,14 @@ class Resume extends Component{
 						 	jobDescription = {'As part of the Wonder! Observe! Weave! Attachment Programme by Temasek JC, together with a fellow intern, we planned and designed various activities for the Brain Awareness Week and a secondary school camp to be hosted at science centre. The puzzle trail we came up with impressed the public and we got featured on the Chinese newspaper ‘Lian He Zao Bao’ commending us for our work. We also assisted the staff in conducting lab sessions for students.'}
 						 />
 
-						 <h2>Education</h2>
+						 <h2 id="resume-education">Education</h2>
 						  <hr style={{borderTop: '3px dotted', width: '85%'}}/>
 						 <Education 
 						 	startYear= {2017}
 						 	endYear = {'2021 Present'}
 						 	schoolName = "National University of Singapore"
 						 	schoolDegree = "Bachelor of Computing with Hons (Computer Science)"
-						 	schoolDescriptionDegree = { ['CAP: 4.78/5.0 (Expected First Class Honours)', 'Specialisations: Security (Certificate of Distinction), Software Engineering, Database, Artificial Intelligence','Programming Methodology I & II , Discrete Structures, Linear Algebra, Calculus for Computing, Statistics and Probability, Data Structures and Algorithms, Algorithms Design and Analysis, Computer Organization, Operating Systems, Computer Networks, Physics Fundamentals, Artificial Intelligence, Machine Learning, Software Engineering, Computer security, Information security, Cybersecurity, Effective Communication for Computing Professionals']}
+						 	schoolDescriptionDegree = { ['CAP: 4.78/5.0 (Expected First Class Honours)', 'Specialisations: Security (Certificate of Distinction), Software Engineering (on track), Database (Certificate of Distinction)','Programming Methodology I & II , Discrete Structures, Linear Algebra, Calculus for Computing, Statistics and Probability, Data Structures and Algorithms, Algorithms Design and Analysis, Computer Organization, Operating Systems, Computer Networks, Physics Fundamentals, Artificial Intelligence, Machine Learning, Software Engineering, Computer security, Information security, Cybersecurity, Database Systems & Implementation, Distributed Databases, Effective Communication for Computing Professionals']}
 						 	important = {'TRUE'}
 						 	schoolAwards = "Awards"
 						 	schoolDescriptionAwards = { ['NUS Merit Scholarship 2017-2021', 'Best Adviser Award for NUS School of Computing Orbital Program 2019', '1st Prize for NUS School of Computing Term Project Showcase (15th STEPS) - CS3235 Computer Security'] }
@@ -116,7 +140,7 @@ class Resume extends Component{
 						 />
 
 
-						 <h2>Skills</h2>
+						 <h2 id="resume-skills">Skills</h2>
 						  <hr style={{borderTop: '3px dotted', width: '85%'}}/>
 						  <h4>Computing</h4>
 						  <Skills
