@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -7,26 +6,34 @@ import Skills from './skills';
 class Resume extends Component{
 	render() {
 		return(
-			<div>
-				<Grid>
-					<Cell className="resume-left-col" col = {3.5}>
-						
-						<div style = {{textAlign:"center"}}>
-							 <h2>Kerryn Eer</h2>
-							 <img src="images/dp.jpg" alt="pic" style={{height: '290px'}} />
-							 <h4>My coding experience began not long ago in 2017 when I join NUS Computer Science. 
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4 resume-left-col">
+						<div className="sticky-top" style = {{textAlign:"center"}}>
+							 <h3>Kerryn</h3>
+							 <img src="images/dp.jpg" alt="pic" style={{height: '220px'}} />
+							 <br/>
+               <br/>
+               <h4>My coding experience began in 2017 when I join NUS Computer Science. 
 							 I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
-							 
-							 <h4>Software Engineering speaks to me most and I am currently specialising in it along with other focus areas like Security and Database!
+							 <h4>Software Engineering speaks to me most and I am specialising in it along with other focus areas like Security and Database!
 							 </h4>
-							 <h5>Too much information? Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
-							  <br/>
+               <br/>
+							 <h5>
+                Walk down my milestones with me!
+                <div className="resume-shortcuts">
+                <a className="btn btn-outline-secondary resume-button" href="#resume-experience">Experience</a>
+                <a className="btn btn-outline-secondary resume-button" href="#resume-education">Education</a>
+                <a className="btn btn-outline-secondary resume-button" href="#resume-skills">Skills</a>
+              </div>
+                 <br/>
+                 Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
 							  <br/>
 							  Grab a copy of the summarised resume <a href="KerrynResume220820.pdf" download>here</a>!
 							 </h5>
-						</div>
-					</Cell>
-					<Cell className="resume-right-col" col={8}>
+            </div>
+          </div>
+          <div className="col-lg-8 resume-right-col">
 						 <h2 id="resume-experience">Experience</h2>
 						 <hr style={{borderTop: '3px dotted', width: '85%'}}/>
              <Experience
@@ -182,8 +189,8 @@ class Resume extends Component{
 
 			             <hr style={{borderTop: '1px solid', width: '85%'}}/>
 						 <h6>Thank you for your time to read my resume!</h6>
-					</Cell>
-				</Grid>
+          </div>
+        </div>
 			</div>
 		)
 	}
