@@ -7,7 +7,7 @@ class Experience extends Component {
   	//To display stars for more outstanding info
   	const starsArray = [];
   	if (this.props.important === 'TRUE') {
-        starsArray.push(<b className="fa fa-star" aria-hidden="true"></b>)	
+        starsArray.push(<b className="fa fa-star" aria-hidden="true" key={starsArray.length}></b>)	
     }
 
   	return(
