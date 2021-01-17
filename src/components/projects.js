@@ -11,6 +11,7 @@ class Projects extends Component{
 		if (this.state.activeTab === 0) {
 			return (
 				<div className="projects-grid">
+          {this.showGuessTheGibGameProject()}
 					{this.showSavemycapProject()}
 					{this.showKnowItAllProject()}
 					{this.showSDRLeaksProject()}
@@ -28,6 +29,7 @@ class Projects extends Component{
 		} else if (this.state.activeTab === 2) {
 			return (
 				<div className="projects-grid">
+          {this.showGuessTheGibGameProject()}
 					{this.showSlapYourEnermyGameProject()}
 				</div>
 			)
@@ -104,6 +106,26 @@ class Projects extends Component{
 				</CardActions>
 			</Card>
 		);
+  }
+  
+  /* Guess the Gibberish game */
+	showGuessTheGibGameProject() {
+		return (
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
+				<CardTitle expand style={{color: 'white', height: '240px', background: 'url(images/guessthegib_logo.png) center / cover'}} ></CardTitle>
+				<CardText>
+					<p>
+            Inspired by the Guess The Gibberish game, this is a multiplayer web version with a localised Singapore theme! Gather your friends and try it now!
+					</p>
+					<br></br>
+					<p>Collaborated with a team of NUS and NTU students as part of Google Software Product Sprint. Built using React, Node.js, Socket.io and Redis. </p>
+				</CardText>
+				<CardActions border>
+					<Button colored> <a href="https://github.com/KerrynEer/gibberish" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
+					<Button colored> <a href="https://guessthegib.web.app" rel="noopener noreferrer" target="_blank">Guess now!</a> </Button>
+				</CardActions>
+			</Card>
+		);
 	}
 
 	/* Software Defined Radio Leaks */
@@ -157,7 +179,7 @@ class Projects extends Component{
 					<Tab><h4>All</h4></Tab>
 					<Tab><h4>Web</h4></Tab>
 					<Tab><h4>Game</h4></Tab>
-					<Tab><h4>Software Engin</h4></Tab>
+					<Tab><h4>Desktop App</h4></Tab>
 					<Tab><h4>Security</h4></Tab>
 				</Tabs>
 
