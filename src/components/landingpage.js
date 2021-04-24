@@ -19,17 +19,17 @@ class LandingPage extends Component{
 		
 						<div className="links-to-pages">
 
-							<a href="/resume">
+							<a href={process.env.PUBLIC_URL + "/#/resume"}>
 								<i className="fa fa-file-text" aria-hidden="true"></i>
 								<p>Resume</p>
 							</a>
 
-							<a href="/projects">
+							<a href={process.env.PUBLIC_URL + "/#/projects"}>
 								<i className="fa fa-laptop" aria-hidden="true"></i>
 								<p>Projects</p>
 							</a>
 
-							<a href="/contact">
+							<a href={process.env.PUBLIC_URL + "/#/contact"}>
 								<i className="fa fa-phone" aria-hidden="true"></i>
 								<p>Contact</p>
 						  </a>

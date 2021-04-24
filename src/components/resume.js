@@ -1,9 +1,33 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 
 class Resume extends Component{
+
+  componentDidMount() {
+    // put this after window.scrollTo if applicable
+    let hash = this.props.location.hash.replace('#', '');
+    if (hash) {
+      let node = ReactDOM.findDOMNode(this.refs[hash]);
+      if (node) {
+        node.scrollIntoView();
+      }
+    }
+  }
+
+  componentDidUpdate() {
+    // put this after window.scrollTo if applicable
+    let hash = this.props.location.hash.replace('#', '');
+    if (hash) {
+      let node = ReactDOM.findDOMNode(this.refs[hash]);
+      if (node) {
+        node.scrollIntoView();
+      }
+    }
+  }
+
 	render() {
 		return(
       <div className="container">
@@ -22,9 +46,9 @@ class Resume extends Component{
 							 <h5>
                 Walk down my milestones with me!
                 <div className="resume-shortcuts">
-                  <a className="btn btn-outline-secondary resume-button" href="#resume-experience">Experience</a>
-                  <a className="btn btn-outline-secondary resume-button" href="#resume-education">Education</a>
-                  <a className="btn btn-outline-secondary resume-button" href="#resume-skills">Skills</a>
+                  <a className="btn btn-outline-secondary resume-button" href={process.env.PUBLIC_URL + "/#/resume/#resume-experience"}>Experience</a>
+                  <a className="btn btn-outline-secondary resume-button" href={process.env.PUBLIC_URL + "/#/resume/#resume-education"}>Education</a>
+                  <a className="btn btn-outline-secondary resume-button" href={process.env.PUBLIC_URL + "/#/resume/#resume-skills"}>Skills</a>
                 </div>
                  <br/>
                  Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
@@ -34,7 +58,7 @@ class Resume extends Component{
             </div>
           </div>
           <div className="col-lg-8 resume-right-col">
-						 <h2 id="resume-experience">Experience</h2>
+						 <h2 ref="resume-experience">Experience</h2>
 						 <hr style={{borderTop: '3px dotted', width: '85%'}}/>
              <Experience
 						 	startYear= {'May 2020'}
@@ -106,7 +130,7 @@ class Resume extends Component{
 						 	jobDescription = {'As part of the Wonder! Observe! Weave! Attachment Programme by Temasek JC, together with a fellow intern, we planned and designed various activities for the Brain Awareness Week and a secondary school camp to be hosted at science centre. The puzzle trail we came up with impressed the public and we got featured on the Chinese newspaper ‘Lian He Zao Bao’ commending us for our work. We also assisted the staff in conducting lab sessions for students.'}
 						 />
 
-						 <h2 id="resume-education">Education</h2>
+						 <h2 ref="resume-education">Education</h2>
 						  <hr style={{borderTop: '3px dotted', width: '85%'}}/>
 						 <Education 
 						 	startYear= {2017}
@@ -147,7 +171,7 @@ class Resume extends Component{
 						 />
 
 
-						 <h2 id="resume-skills">Skills</h2>
+						 <h2 ref="resume-skills">Skills</h2>
 						  <hr style={{borderTop: '3px dotted', width: '85%'}}/>
 						  <h4>Computing</h4>
 						  <Skills
