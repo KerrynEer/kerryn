@@ -12,11 +12,13 @@ class Projects extends Component{
 			return (
 				<div className="projects-grid">
           {this.showGuessTheGibGameProject()}
-					{this.showSavemycapProject()}
 					{this.showKnowItAllProject()}
 					{this.showSDRLeaksProject()}
-					{this.showPersonalPortfolioWebsite()}
-					{this.showSlapYourEnermyGameProject()}
+          {this.showDistributedDbProject()}
+          {this.showPersonalPortfolioWebsite()}
+          {this.showPetsGoWhereProject()}
+          {this.showSavemycapProject()}
+          {this.showSlapYourEnermyGameProject()}
 				</div>
 			)
 		} else if (this.state.activeTab === 1) {
@@ -43,6 +45,18 @@ class Projects extends Component{
 			return (
 				<div className="projects-grid">
 					{this.showSDRLeaksProject()}
+				</div>
+			)
+		} else if (this.state.activeTab === 5) {
+			return (
+				<div className="projects-grid">
+					{this.showDistributedDbProject()}
+				</div>
+			)
+		} else if (this.state.activeTab === 6) {
+			return (
+				<div className="projects-grid">
+					{this.showPetsGoWhereProject()}
 				</div>
 			)
 		}
@@ -78,7 +92,7 @@ class Projects extends Component{
 				<CardText>
 					<p>Yes this is the one you are looking at right now! Self-taught by following online tutorials and exploring on my own!</p>
 					<br></br>
-					<p>Built using React, Node.js, HTML and CSS, hosted on Heroku.</p>
+					<p>Built using React, Node.js, HTML and CSS, hosted on <strike>Heroku</strike> Github Pages.</p>
 				</CardText>
 				<CardActions border>
 					<Button colored> <a href="http://github.com/KerrynEer/kerryn" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
@@ -155,17 +169,63 @@ class Projects extends Component{
 				<CardTitle expand style={{color: 'black', height: '200px', background: 'url(images/knowitall_logo.png) center / contain no-repeat '}} ></CardTitle>
 				<CardText>
 					<p>
-					A flashcard management app designed to help medical students store, organise and share their learning material, integrated with a test session feature and scoring system to allow for 
-					a more efficient rote learning process. </p>
-					<p>I was in charge of the test session feature. I applied Software Engineering Principles and Patterns throughout implementation and wrote detailed documentation, 
-					which includes sequence diagrams and architecture diagrams in the developer guide, as well as user guide, non-functional requirements etc. Go over to my Project Portfolio to see my contributions!
+					A flashcard management app designed to help medical students store, organise and share their learning material, integrated with a test feature and scoring system to allow for 
+					a more efficient rote learning process.</p>
+					<p>We applied Software Engineering Principles and Patterns throughout implementation and wrote detailed documentation. Go over to my Project Portfolio to see some snippets of my contributions!
 					</p>
 					<br></br>
-					<p>In a team of 5, we morphed a command line interface addressbook into Know-It-All for NUS CS2103T Software Engineering Project. It is written in Java and GUI is created with JavaFX. It has about 10kLoC.</p>
+					<p>In a team of 5, we morphed a CLI addressbook into Know-It-All. It is written in Java and GUI is created with JavaFX. It has about 10kLoC.</p>
 				</CardText>
 				<CardActions border>
 					<Button colored> <a href="http://github.com/cs2103-ay1819s2-w10-4/main" rel="noopener noreferrer" target="_blank">GitHub</a> </Button>
 					<Button colored> <a href="http://cs2103-ay1819s2-w10-4.github.io/main/team/kerryneer.html" rel="noopener noreferrer" target="_blank">Project Portfolio</a> </Button>
+				</CardActions>
+			</Card>
+		);
+	}
+
+  /* Distributed database project */
+  showDistributedDbProject() {
+    return (
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
+				<CardTitle expand style={{color: 'black', height: '220px', background: 
+				'url(https://www.cockroachlabs.com/wp-content/uploads/2020/08/cassandra-vs-cockroachdb-2.png) center / contain no-repeat'}} >
+				Distributed Database</CardTitle>
+				<CardText>
+          <p>A challenging project to employ distributed databases to implement an application for wholesale suppliers managing their warehouse stock and customer transactions.
+          We explored 2 different kinds - <b>Apache Cassandra</b> & <b>CockroachDb</b>.</p>
+          <p>We installed the distributed database system on a cluster of machines, designed the data modelling, 
+            and implemented transactions to support an application while considering the app's workload and database system's key features, 
+            and benchmarked its performance.
+            </p>
+					<br></br>
+					<p>Done in a group of 4 over 4 months, using Java.</p>
+				</CardText>
+				<CardActions border>
+					<Button colored> <a href="https://github.com/CS4224-Distributed-Databases" rel="noopener noreferrer" target="_blank">Github</a> </Button>
+				</CardActions>
+			</Card>
+		);
+  }
+
+  /* PetsGoWhere Interaction Design */
+	showPetsGoWhereProject() {
+		return (
+			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
+				<CardTitle expand style={{color: 'black', height: '220px', background: 
+				'url(images/petsgowhere_logo.png) center / contain no-repeat'}} >
+				PetsGoWhere</CardTitle>
+				<CardText>
+          <p>A platform to connect pet owners/ organisations with potential adopters!</p>
+          <br></br>
+					<p>An Interaction Design project by following the Design Process closely to conduct Contextual Inquiries with our target audience, before drawing Affinity Diagrams and Personas to analyse the problem in detail. 
+            Throughout multiple iterations of prototyping from storyboarding to wireframes to high-fidelity prototypes, we conducted both quantitative and qualitative evaluations with potential users.</p>
+					<br></br>
+					<p>Done in a group of 4 over 3 months, using Balsamiq & Figma.</p>
+				</CardText>
+				<CardActions border>
+					<Button colored> <a href="https://petsgowhere.gtsb.io/" rel="noopener noreferrer" target="_blank">Portfolio</a> </Button>
+          <Button colored> <a href="https://www.figma.com/proto/3MynveuT4OF8AnttyGhTsL/CS3240-Group-16-G3---PetsGoWhere?kind=&node-id=17%3A0&page-id=0%3A1&scaling=scale-down" rel="noopener noreferrer" target="_blank">Prototype</a> </Button>
 				</CardActions>
 			</Card>
 		);
@@ -179,8 +239,10 @@ class Projects extends Component{
 					<Tab><h4>All</h4></Tab>
 					<Tab><h4>Web</h4></Tab>
 					<Tab><h4>Game</h4></Tab>
-					<Tab><h4>Desktop App</h4></Tab>
+					<Tab><h4>Desktop</h4></Tab>
 					<Tab><h4>Security</h4></Tab>
+          <Tab><h4>Database</h4></Tab>
+          <Tab><h4>Design</h4></Tab>
 				</Tabs>
 
 				<Grid>
