@@ -15,7 +15,7 @@ class Experience extends Component {
         <Cell col= {2}>
           <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "21px"}}>{this.props.startYear} - {this.props.endYear}</h4>
         </Cell>
-        <Cell col= {8}>
+        <Cell col= {10}>
           <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "25px"}}>{this.props.jobName} {starsArray}</h4>    
           <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><i>{this.props.jobCompany}</i></h4>
           <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}>{this.props.jobDescription}</h5>
