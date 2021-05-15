@@ -16,35 +16,35 @@ const Education = (props) => {
   const commServiceArray = [];
 
   for (const [index, value] of props.schoolDescriptionDegree.entries()) {
-    degreeArray.push(<li style= {{marginTop:'4px'}} key={index}>{value}</li>)
+    degreeArray.push(<li key={index}>{value}</li>)
   }
 
   for (const [index, value] of props.schoolDescriptionAwards.entries()) {
-    awardsArray.push(<li style= {{marginTop:'4px'}} key={index}>{value}</li>)
+    awardsArray.push(<li key={index}>{value}</li>)
   }
 
   for (const [index, value] of props.schoolDescriptionLeadership.entries()) {
-    leadershipArray.push(<li style= {{marginTop:'4px'}} key={index}>{value}</li>)
+    leadershipArray.push(<li key={index}>{value}</li>)
   }
 
   for (const [index, value] of props.schoolDescriptionCommService.entries()) {
-    commServiceArray.push(<li style= {{marginTop:'4px'}} key={index}>{value}</li>)
+    commServiceArray.push(<li key={index}>{value}</li>)
   }
 
   return(
     <Grid className="education-details">
       <Cell col= {2}>
-        <h4 style= {{marginTop:'0px',fontFamily: "Patrick Hand Regular", fontSize: "21px"}}>{props.startYear} - {props.endYear}</h4>
+        <div className="resume-daterange">{props.startYear} - {props.endYear}</div>
       </Cell>
       <Cell col= {10}>
-        <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "25px"}}>{props.schoolName}</h4>
-        <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{props.schoolDegree}</u> {starsArray}</h5>
+        <h4 className="resume-title">{props.schoolName}</h4>
+        <div className="resume-details"><u>{props.schoolDegree}</u> {starsArray}</div>
         {degreeArray}
-        <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{props.schoolAwards}</u> {starsArray}</h5>
+        <div className="resume-details"><u>{props.schoolAwards}</u> {starsArray}</div>
         {awardsArray}
-        <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{props.schoolLeadership}</u></h5>
+        <div className="resume-details"><u>{props.schoolLeadership}</u></div>
         {leadershipArray}
-        <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><u>{props.schoolCommService}</u></h5>
+        <div className="resume-details"><u>{props.schoolCommService}</u></div>
         {commServiceArray}
       </Cell>
     </Grid>

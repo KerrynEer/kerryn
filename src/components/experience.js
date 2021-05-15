@@ -12,12 +12,12 @@ const Experience = (props) => {
   return(
     <Grid className="experience-details">
       <Cell col= {2}>
-        <h4 style= {{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "21px"}}>{props.startYear} - {props.endYear}</h4>
+        <div className="resume-daterange">{props.startYear} - {props.endYear}</div>
       </Cell>
       <Cell col= {10}>
-        <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "25px"}}>{props.jobName} {starsArray}</h4>    
-        <h4 style={{marginTop:'0px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}><i>{props.jobCompany}</i></h4>
-        <h5 style= {{marginTop:'12px', fontFamily: "Patrick Hand Regular", fontSize: "19px"}}>{props.jobDescription}</h5>
+        <h4 className="resume-title">{props.jobName} {starsArray}</h4>    
+        <div className="resume-subtitle"><i>{props.jobCompany}</i></div>
+        <div className="resume-details">{props.jobDescription}</div>
       </Cell>
     </Grid>
   );

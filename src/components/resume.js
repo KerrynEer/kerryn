@@ -9,17 +9,16 @@ const Resume = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-4 resume-left-col">
-          <div className="sticky-top" style = {{textAlign:"center"}}>
-              <h3>Kerryn</h3>
-              <img src="images/dp.jpg" alt="pic" style={{height: '210px'}} />
-              <br/>
-              <br/>
-              <h4>My coding experience began in 2017 when I join NUS Computer Science. 
-              I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
-              <h4>Software Engineering speaks to me most and I am specialising in it along with other focus areas like Security and Database!
-              </h4>
-              <br/>
-              <h5>
+          <div className="sticky-top">
+            <h3>Kerryn</h3>
+            <img src="images/dp.jpg" alt="pic" />
+            <br/>
+            <br/>
+            <h4>My coding experience began in 2017 when I join NUS Computer Science. 
+            I enjoy the challenge and am not afraid to learn new things on my own and on the go.</h4>
+            <h4>Software Engineering speaks to me most and I am specialising in it along with other focus areas like Security and Database!</h4>
+            <br/>
+            <div className="resume-summary">
               Walk down my milestones with me!
               <div className="resume-shortcuts">
                 <HashLink className="btn btn-outline-secondary resume-button" smooth to="/resume#resume-experience">Experience</HashLink>
@@ -30,13 +29,13 @@ const Resume = () => {
                 Look out for stars <b className="fa fa-star" aria-hidden="true"></b> that highlight my notable achievements!
               <br/>
               Grab a copy of the summarised resume <a href="KerrynResume150521.pdf" download>here</a>!
-              </h5>
+            </div>
           </div>
         </div>
         <div className="col-lg-8 px-5 resume-right-col">
-            <h2 id="resume-experience">Experience</h2>
-            <hr style={{borderTop: '3px dotted'}}/>
-            <Experience
+          <h2 id="resume-experience">Experience</h2>
+          <hr className="resume-section-break"/>
+          <Experience
             startYear= {'May 2020'}
             endYear = {'Aug 2020'}
             jobName = {'Software Product Sprint'}
@@ -44,8 +43,8 @@ const Resume = () => {
             jobCompany = {'Google Singapore Pte Ltd'}
             jobDescription = {'I was fortunate to be accepted into this invite-only Software Product Sprint program. I got the opportunity to develop industry-aligned SWE skills and receive code reviews from Googlers throughout. I collaborated in a team to design and implement an online multiplayer game using Socket.io, React and Node.js.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'May 2020'}
             endYear = {'Jul 2020'}
             jobName = {'Software Engineer Intern at Govtech'}
@@ -53,8 +52,8 @@ const Resume = () => {
             jobCompany = {'Government Technology Agency'}
             jobDescription = {'I developed and deployed features for the mobile dashboard on the Whole-of-Government Application Analytics (WOGAA) web application, providing real-time performance monitoring of > 1000 government sites. I also helped to migrate part of platform infrastructure over to Government Commercial Cloud Service platform using AWS S3, Lambda and Cloudfront.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'Feb 2020'}
             endYear = {'Apr 2020'}
             jobName = {'Product Management Intern at Shopee'}
@@ -62,16 +61,16 @@ const Resume = () => {
             jobCompany = {'Shopee Pte Ltd'}
             jobDescription = {'Intrigued by the different stages of Software Development Life Cycle, I joined Shopee Search Team to learn more about Product Management. My job scope consists of writing SQL queries doing complex manipulations on large datasets, for analysis of A/B test results to verify Search feature’s performance and plan its roadmap. I am proud to have increased the coverage of users’ keywords of the project by at least 53%.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'Dec 2019'}
             endYear = {'Jan 2020'}
             jobName = {'Intern at Vouch SG Pte Ltd'}
             jobCompany = {'Vouch SG Pte Ltd'}
             jobDescription = {'As a versatile team player, I took on various roles from product management to software engineering. I built a new chatbot from scratch for HR claims management, attended meetings with clients (Singapore Zoo and Singapore Tourism Board) and refined the existing chatbot main features and performed extensive testing according to their requirements. As a software engineer, I implemented a UI/UX feature using Node.js to enhance chatbot developers user experience.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'May'}
             endYear = {'Aug 2019'}
             jobName = {'Adviser for NUS Independent Software Development Project - Awarded the Best Adviser Award'}
@@ -79,8 +78,8 @@ const Resume = () => {
             jobCompany = {'National University of Singapore'}
             jobDescription = {'This program, also known as Orbital, gives first-year NUS students the opportunity to pick up software development skills on their own, using sources on the web. As an adviser, I provide materials, assess and evaluate the progress of the 5 teams I oversee and guide them through the project. I was lucky to be one of the two who won the Best Adviser Award among 50+ other advisers.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'Aug'}
             endYear = {'Dec 2018'}
             jobName = {'Teaching Assistant'} 
@@ -88,16 +87,16 @@ const Resume = () => {
             jobCompany = {'National University of Singapore'}
             jobDescription = {'Prepared and conducted 2 hour weekly tutorial sessions with a class of 12 students, as well as grading assignments for CS1010 Programming Methodology, an introductory programming module  taught in C that covers fundamental concepts of programming and problem solving.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'May'}
             endYear = {'July 2017'}
             jobName = {'Public Service Commission (PSC) iExperience Intern'}
             jobCompany = {'Ministry Of Education (MOE) HQ Arts Education Branch'}
             jobDescription = {'I helped in the organisation and implementation of SYF Celebrations 2017 held in July, coordinating various admin, publicity and logistics needed (e.g. meals, transport) as well as liaising with schools, trainers and venue partners on all the performance requirements. I also designed posters for the event and maintained the SYF social media accounts like Instagram.'}
             />
-            <hr style={{borderTop: '1px solid'}}/>
-            <Experience
+          <hr className="resume-item-break"/>
+          <Experience
             startYear= {'Jan'}
             endYear = {'Feb 2015'}
             jobName = {'Intern at Science Centre Singapore'}
@@ -105,10 +104,10 @@ const Resume = () => {
             jobDescription = {'As part of the Wonder! Observe! Weave! Attachment Programme by Temasek JC, together with a fellow intern, we planned and designed various activities for the Brain Awareness Week and a secondary school camp to be hosted at science centre. The puzzle trail we came up with impressed the public and we got featured on the Chinese newspaper ‘Lian He Zao Bao’ commending us for our work. We also assisted the staff in conducting lab sessions for students.'}
             />
             
-            <br />
-            <h2 id="resume-education">Education</h2>
-            <hr style={{borderTop: '3px dotted'}}/>        
-            <Education 
+          <br />
+          <h2 id="resume-education">Education</h2>
+          <hr className="resume-section-break"/>       
+          <Education 
             startYear= {2017}
             endYear = {'2021 Present'}
             schoolName = "National University of Singapore"
@@ -123,10 +122,8 @@ const Resume = () => {
             schoolDescriptionCommService = { ['Ang Mo Kio Family Service Centre Project Spright Academy Organising Committee Manpower and Logistics IC 2019', 'NUS Computing Club Community Service Cell Member 2017-2018', 
             'NUS Rag & Flag Beneficiary Engagement Day @ Fernvale Gardens School (MINDS) 2017, 2018' ]} 
             />
-
-            <hr style={{borderTop: '1px solid'}}/>
-
-            <Education 
+          <hr className="resume-item-break"/>
+          <Education 
             startYear= {2013}
             endYear = {2016}
             schoolName = "Temasek Junior College"
@@ -146,48 +143,45 @@ const Resume = () => {
               'Give free tuition @ Tampines North CC and Siglap CC 2013']} 
             />
             
-            <br />
-            <h2 id="resume-skills">Skills</h2>
-            <hr style={{borderTop: '3px dotted'}}/>
-            <h4>Computing</h4>
-            <Skills
+          <br />
+          <h2 id="resume-skills">Skills</h2>
+          <hr className="resume-section-break"/>
+          <h4>Computing</h4>
+          <Skills
             skill="Java, C, Object Oriented Programming"
             progress={95}
             />
-            <Skills
+          <Skills
             skill="Web Dev (HTML, CSS)"
             progress={85}
             />
-            <Skills
+          <Skills
             skill="Web Dev (Node.js, Meteor, React, MongoDB)"
             progress={75}
             />
-            <Skills
+          <Skills
             skill="Git, unix, vim"
             progress={80}
             />
-            <Skills
+          <Skills
             skill="Oracle Database SQL, SQLDeveloper, Python"
             progress={80}
             />
-            <Skills
+          <Skills
             skill="JavaFX, JUnit, Vue.js, Javascript, Spring Boot, Wireshark"
             progress={60}
             />
-
-          <hr style={{borderTop: '1px solid'}}/>
-
+          <hr className="resume-item-break"/>
           <h4>Interests</h4>
           <Skills
-          skill="Chinese Calligraphy and Painting"
-          progress={85}
-          />
+            skill="Chinese Calligraphy and Painting"
+            progress={85}
+            />
           <Skills
-          skill="Guitar"
-          progress={50}
-          />
-
-          <hr style={{borderTop: '1px solid'}}/>
+            skill="Guitar"
+            progress={50}
+            />
+          <hr className="resume-item-break"/>
           <h6>Thank you for your time to read my resume!</h6>
         </div>
       </div>

@@ -265,6 +265,7 @@ html {
 .contact-grid p {
   font-family: "Patrick Hand Regular";
   font-size: 18px;
+  margin-top: 1em;
 }
 
 .contact-grid hr {
@@ -282,11 +283,18 @@ html {
   padding-right: 1rem;
 }
 
+.contact-list li {
+  color: white;
+  font-size: 19px;
+  font-family: 'Patrick Hand Regular';
+}
+
 
 /*Resume page*/
 
 .resume-left-col {
   color: white;
+  text-align: center;
 }
 
 .resume-left-col h3 {
@@ -303,7 +311,7 @@ html {
   line-height: 1.5;
 }
 
-.resume-left-col h5 {
+.resume-summary {
   font-family: "Patrick Hand Regular";
   font-size: 17px;
   text-align: center;
@@ -313,6 +321,10 @@ html {
   border: 2px solid;
   border-radius: 10px;
   line-height: 1.5;
+}
+
+.resume-left-col img {
+  height: 210px;
 }
 
 .resume-right-col {
@@ -345,6 +357,10 @@ html {
   line-height: 1.2;
 }
 
+.education-details li {
+  margin-top: 4px;
+}
+
 .experience-details {
   line-height: 1.2;
 }
@@ -363,6 +379,36 @@ html {
 .resume-button {
   margin-left: 10px;
 }
+
+.resume-daterange {
+  margin-top: 0px;
+  font-family: "Patrick Hand Regular"; 
+  font-size: 21px;
+}
+
+.resume-title {
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.resume-subtitle {
+  margin-top: 0px;
+  font-size: 19px;
+}
+
+.resume-details {
+  margin-top: 12px;
+  font-size: 19px;
+}
+
+.resume-section-break {
+  border-top: 3px dotted;
+}
+
+.resume-item-break {
+  border-top: 1px solid;
+}
+
 
 /* Stars */
 
