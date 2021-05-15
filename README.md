@@ -1,3 +1,3 @@
 # Portfolio website
 
-Built with React, NodeJS, HTML, CSS and Heroku!
+Built with React, NodeJS, HTML and CSS!
