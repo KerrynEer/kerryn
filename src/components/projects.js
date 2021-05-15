@@ -1,69 +1,66 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
-class Projects extends Component{
-	constructor(props) {
-		super(props);
-		this.state = { activeTab: 0 };
-	}
+const Projects = () => {
+  const [activeTab, setActiveTab] = useState(0);
 
-	toggleCategories(){
-		if (this.state.activeTab === 0) {
+	const toggleCategories = () => {
+		if (activeTab === 0) {
 			return (
 				<div className="projects-grid">
-          {this.showGuessTheGibGameProject()}
-					{this.showKnowItAllProject()}
-					{this.showSDRLeaksProject()}
-          {this.showDistributedDbProject()}
-          {this.showPersonalPortfolioWebsite()}
-          {this.showPetsGoWhereProject()}
-          {this.showSavemycapProject()}
-          {this.showSlapYourEnermyGameProject()}
+          {showGuessTheGibGameProject()}
+					{showKnowItAllProject()}
+					{showSDRLeaksProject()}
+          {showDistributedDbProject()}
+          {showPersonalPortfolioWebsite()}
+          {showPetsGoWhereProject()}
+          {showSavemycapProject()}
+          {showSlapYourEnermyGameProject()}
 				</div>
 			)
-		} else if (this.state.activeTab === 1) {
+		} else if (activeTab === 1) {
 			return (
 				<div className="projects-grid">
-					{this.showSavemycapProject()}
-					{this.showPersonalPortfolioWebsite()}
+					{showSavemycapProject()}
+					{showPersonalPortfolioWebsite()}
 				</div>
 			)
-		} else if (this.state.activeTab === 2) {
+		} else if (activeTab === 2) {
 			return (
 				<div className="projects-grid">
-          {this.showGuessTheGibGameProject()}
-					{this.showSlapYourEnermyGameProject()}
+          {showGuessTheGibGameProject()}
+					{showSlapYourEnermyGameProject()}
 				</div>
 			)
-		} else if (this.state.activeTab === 3) {
+		} else if (activeTab === 3) {
 			return (
 				<div className="projects-grid">
-					{this.showKnowItAllProject()}
+					{showKnowItAllProject()}
 				</div>
 			)
-		} else if (this.state.activeTab === 4) {
+		} else if (activeTab === 4) {
 			return (
 				<div className="projects-grid">
-					{this.showSDRLeaksProject()}
+					{showSDRLeaksProject()}
 				</div>
 			)
-		} else if (this.state.activeTab === 5) {
+		} else if (activeTab === 5) {
 			return (
 				<div className="projects-grid">
-					{this.showDistributedDbProject()}
+					{showDistributedDbProject()}
 				</div>
 			)
-		} else if (this.state.activeTab === 6) {
+		} else if (activeTab === 6) {
 			return (
 				<div className="projects-grid">
-					{this.showPetsGoWhereProject()}
+					{showPetsGoWhereProject()}
 				</div>
 			)
 		}
 	}
 
 	/* savemyCAP web project */
-	showSavemycapProject() {
+	const showSavemycapProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/savemycap_logo.png) center / cover'}} >SaveMyCAP</CardTitle>
@@ -83,7 +80,7 @@ class Projects extends Component{
 	}
 
 	/* Personal portfolio website */
-	showPersonalPortfolioWebsite() {
+	const showPersonalPortfolioWebsite = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'white', height: '280px', background: 
@@ -103,7 +100,7 @@ class Projects extends Component{
 	}
 
 	/* Slap your enemy game */
-	showSlapYourEnermyGameProject() {
+	const showSlapYourEnermyGameProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '280px', background: 'url(images/slapyourenermy_logo.png) center / cover'}} >Slap Your Enemy</CardTitle>
@@ -123,7 +120,7 @@ class Projects extends Component{
   }
   
   /* Guess the Gibberish game */
-	showGuessTheGibGameProject() {
+	const showGuessTheGibGameProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'white', height: '240px', background: 'url(images/guessthegib_logo.png) center / cover'}} ></CardTitle>
@@ -143,7 +140,7 @@ class Projects extends Component{
 	}
 
 	/* Software Defined Radio Leaks */
-	showSDRLeaksProject() {
+	const showSDRLeaksProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'20px'}}>
 				<CardTitle expand style={{color: 'black', height: '220px', background: 'url(images/sdrLeak.png) center / contain no-repeat '}} >Software Defined Radio Leaks</CardTitle>
@@ -163,7 +160,7 @@ class Projects extends Component{
 	}
 
 	/* Know-It-All Software Engineering Project */
-	showKnowItAllProject() {
+	const showKnowItAllProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'20px'}}>
 				<CardTitle expand style={{color: 'black', height: '200px', background: 'url(images/knowitall_logo.png) center / contain no-repeat '}} ></CardTitle>
@@ -185,7 +182,7 @@ class Projects extends Component{
 	}
 
   /* Distributed database project */
-  showDistributedDbProject() {
+  const showDistributedDbProject = () => {
     return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '220px', background: 
@@ -209,7 +206,7 @@ class Projects extends Component{
   }
 
   /* PetsGoWhere Interaction Design */
-	showPetsGoWhereProject() {
+	const showPetsGoWhereProject = () => {
 		return (
 			<Card shadow= {5} style= {{minWidth: '550', margin:'auto', marginTop:'10px'}}>
 				<CardTitle expand style={{color: 'black', height: '220px', background: 
@@ -231,28 +228,25 @@ class Projects extends Component{
 		);
 	}
 
+  return(
+    <div className="category-tabs">
+      <Tabs activeTab={activeTab} onChange={(tabId) => setActiveTab(tabId)} ripple>
+        <Tab><h4>All</h4></Tab>
+        <Tab><h4>Web</h4></Tab>
+        <Tab><h4>Game</h4></Tab>
+        <Tab><h4>Desktop</h4></Tab>
+        <Tab><h4>Security</h4></Tab>
+        <Tab><h4>Database</h4></Tab>
+        <Tab><h4>Design</h4></Tab>
+      </Tabs>
 
-	render() {
-		return(
-			<div className="category-tabs">
-				<Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
-					<Tab><h4>All</h4></Tab>
-					<Tab><h4>Web</h4></Tab>
-					<Tab><h4>Game</h4></Tab>
-					<Tab><h4>Desktop</h4></Tab>
-					<Tab><h4>Security</h4></Tab>
-          <Tab><h4>Database</h4></Tab>
-          <Tab><h4>Design</h4></Tab>
-				</Tabs>
-
-				<Grid>
-					<Cell col= {12}>
-						<div className="content">{this.toggleCategories()}</div>
-					</Cell>
-				</Grid>
-			</div>
-		)
-	}
+      <Grid>
+        <Cell col= {12}>
+          <div className="content">{toggleCategories()}</div>
+        </Cell>
+      </Grid>
+    </div>
+  );
 }
 
 export default Projects;
